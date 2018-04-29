@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="kz.pandusland.pandus.Main">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.31"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pandus Land"
+                android:id="@+id/textView"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ffa9a9a9"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mainButton"
+                android:layout_gravity="center"
+                android:background="#00ffffff"
+                android:adjustViewBounds="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gps_main1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageButton"
+                android:src="@drawable/ramp_red"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#00000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/redRamp"
+                android:id="@+id/textView11"
+                android:textColor="#ffd0d0d0"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="0"
+                android:id="@+id/redRamp"
+                android:textColor="#ffd0d0d0"
+                android:textSize="15dp" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageButton2"
+                android:src="@drawable/ramp_green"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#00000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/repRamp"
+                android:id="@+id/textView12"
+                android:textColor="#ffd0d0d0"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="0"
+                android:id="@+id/repRamp"
+                android:textColor="#ffd0d0d0"
+                android:textSize="15dp"
+                android:textIsSelectable="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

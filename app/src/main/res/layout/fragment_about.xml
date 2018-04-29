@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="kz.pandusland.pandus.About"
+    android:background="@drawable/background"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff696967">
+<!--
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/header" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pandus Land"
+                android:id="@+id/textView19"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="28dp"
+                android:textSize="40dp"
+                android:textIsSelectable="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffbdbdbf" />
+        </RelativeLayout>
+-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="       About application"
+            android:id="@+id/textView17"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffdfe2e0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="       PandusLand is a social project, which aims to identify organizations with the presence or absence of ramps around the city. Our effort is intended to involve to participate in the project people with disabilities in the movement, as well as young mothers with babies in strollers. "
+            android:id="@+id/textView6"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="#ffdfe2e0"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:gravity="left"
+            android:autoText="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView18"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffdfe2e0"
+            android:text="       Thank you for joining the community PandusLand!" />
+    </LinearLayout>
+
+</FrameLayout>

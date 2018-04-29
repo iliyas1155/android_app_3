@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">PandusLand</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_menu_drawer">MenuDrawerActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section4">Section 4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+
+
+    <string name="updateImageTitle">New iamge</string>
+    <string name="updateImageContent">Add new image?</string>
+    <string name="updateImageYes">take a photo</string>
+    <string name="updateImageNo">No</string>
+    <string name="categoryOfthePlace">Category</string>
+    <string name="typeOfthePlace">State(good; requires repair; not available)</string>
+    <string name="camerisnotexist">Sorry, you camera do not work</string>
+    <string name="emptyField">Fill in all the fields</string>
+    <string name="yahoo">Success</string>
+
+    <string name="green_button">Green</string>
+    <string name="yellow_button">Yellow</string>
+    <string name="red_button">Red</string>
+    <string name="loading">Loading...</string>
+
+
+
+    <string name="login">Login</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_error">Login Error</string>
+    <string name="login_error_fields">Login error</string>
+
+    <string name="registration">Registration</string>
+    <string name="registration_name">Name</string>
+    <string name="registration_sname">Surname</string>
+    <string name="registration_phone">tel. number</string>
+    <string name="registration_description">Discriotion</string>
+    <string name="registration_email">email</string>
+    <string name="registration_password">Password</string>
+    <string name="registration_btn">Registed</string>
+    <string name="registration_error">Error registration</string>
+    <string name="registration_error_fields">Regist error</string>
+    <string name="title_activity_login">Login</string>
+    <string name="welcomeText">Welcome!</string>
+    <string name="imageDiscr">Image preview</string>
+    <string name="placeDescription">Button for choose place from map</string>
+    <string name="pickMap">Pick maps</string>
+    <string name="nameOfthePlace">Name</string>
+    <string name="address">Address</string>
+    <string name="create">Report</string>
+    <string name="inDetailText">Address</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="redRamp">Reported:</string>
+    <string name="repRamp">Repaired:</string>
+    <string name="allRamp">All Ramps     </string>
+    <string name="title_activity_item">Item</string>
+    <string name="title_activity_create_item_offline">createItemOffline</string>
+</resources>

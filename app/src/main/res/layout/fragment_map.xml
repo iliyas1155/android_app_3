@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="kz.pandusland.pandus.Map"
+    >
+
+    <ru.yandex.yandexmapkit.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="p-v57mJKxdGJA6keRaEnnARwZZe5H8hW-k4MVAI5gdSq38c3gjUGIZIYsyZ-Vp4V6M4zW~2Xb~ZEXCWo5ZKsHkd5LKNcqnQ163CMXMJ280Q=">
+    </ru.yandex.yandexmapkit.MapView>
+
+</FrameLayout>
